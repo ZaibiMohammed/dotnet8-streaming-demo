@@ -1,0 +1,39 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Custom styles */
+.chart-container {
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+
+.progress {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+}
+
+.table-responsive {
+  scrollbar-width: thin;
+}
+
+/* Dark theme styles */
+.dark-theme {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.dark-theme .card {
+  background-color: #2d2d2d;
+  border-color: #404040;
+}
+
+.dark-theme .table {
+  color: #fff;
+}
+
+.dark-theme .bg-light {
+  background-color: #404040 !important;
+}
